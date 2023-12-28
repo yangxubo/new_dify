@@ -43,14 +43,14 @@ export default function AccountAbout({
           <div className='mb-4 text-center text-xs font-normal text-gray-700'>
             <div>© 2023 LangGenius, Inc., Contributors.</div>
             <div className='text-[#1C64F2]'>
-              {
+              {/* {
                 IS_CE_EDITION
                   ? <Link href={'https://github.com/langgenius/dify/blob/main/LICENSE'} target='_blank'>Open Source License</Link>
                   : <>
                     <Link href={locale === 'en' ? 'https://docs.dify.ai/user-agreement/privacy-policy' : 'https://docs.dify.ai/v/zh-hans/user-agreement/privacy-policy'} target='_blank'>Privacy Policy</Link>,
                     <Link href={locale === 'en' ? 'https://docs.dify.ai/user-agreement/terms-of-service' : 'https://docs.dify.ai/v/zh-hans/user-agreement/terms-of-service'} target='_blank'>Terms of Service</Link>
                   </>
-              }
+              } */}
             </div>
           </div>
         </div>

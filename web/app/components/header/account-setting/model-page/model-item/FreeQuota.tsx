@@ -56,13 +56,13 @@ const FreeQuota: FC<FreeQuotaProps> = ({
       📣
       <div className={`${s.vender} ml-1 text-xs font-medium text-transparent`}>{TIP_MAP[modelItem.key][locale]}</div>
       <div className='mx-1 text-xs font-medium text-gray-400'>·</div>
-      <a
+      {/* <a
         href='https://docs.dify.ai/v/zh-hans/getting-started/faq/llms-use-faq#8.-ru-he-mian-fei-shen-ling-xun-fei-xing-huo-minimax-mo-xing-de-ti-yanedu'
         target='_blank'
         className='flex items-center text-xs font-medium text-[#155EEF]'>
         {t('common.modelProvider.freeQuota.howToEarn')}
         <LinkExternal01 className='ml-0.5 w-3 h-3' />
-      </a>
+      </a> */}
       <Button
         type='primary'
         className='ml-3 !px-3 !h-7 !rounded-md !text-xs !font-medium'

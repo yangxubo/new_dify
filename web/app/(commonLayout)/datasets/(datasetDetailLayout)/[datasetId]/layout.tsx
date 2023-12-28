@@ -198,7 +198,7 @@ const DatasetDetailLayout: FC<IAppDetailLayoutProps> = (props) => {
 
   return (
     <div className='flex overflow-hidden'>
-      {!hideSideBar && <AppSideBar
+      {/* {!hideSideBar && <AppSideBar
         title={datasetRes?.name || '--'}
         icon={datasetRes?.icon || 'https://static.dify.ai/images/dataset-default-icon.png'}
         icon_background={datasetRes?.icon_background || '#F5F5F5'}
@@ -206,7 +206,7 @@ const DatasetDetailLayout: FC<IAppDetailLayoutProps> = (props) => {
         navigation={navigation}
         extraInfo={<ExtraInfo isMobile={isMobile} relatedApps={relatedApps} />}
         iconType={datasetRes?.data_source_type === DataSourceType.NOTION ? 'notion' : 'dataset'}
-      />}
+      />} */}
       <DatasetDetailContext.Provider value={{
         indexingTechnique: datasetRes?.indexing_technique,
         dataset: datasetRes,

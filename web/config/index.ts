@@ -36,7 +36,8 @@ else {
 export const API_PREFIX: string = apiPrefix
 export const PUBLIC_API_PREFIX: string = publicApiPrefix
 
-const EDITION = process.env.NEXT_PUBLIC_EDITION || globalThis.document?.body?.getAttribute('data-public-edition')
+const EDITION = 'SELF_HOSTED'
+// const EDITION = process.env.NEXT_PUBLIC_EDITION || globalThis.document?.body?.getAttribute('data-public-edition')
 export const IS_CE_EDITION = EDITION === 'SELF_HOSTED'
 
 export const MODEL_LIST = [

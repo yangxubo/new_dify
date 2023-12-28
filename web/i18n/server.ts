@@ -25,7 +25,8 @@ export const getLocaleOnServer = (): Locale => {
 
   // match locale
   const matchedLocale = match(languages, locales, i18n.defaultLocale) as Locale
-  return matchedLocale
+  return 'zh-Hans'
+  // return matchedLocale
 }
 
 // We enumerate all dictionaries here for better linting and typescript support

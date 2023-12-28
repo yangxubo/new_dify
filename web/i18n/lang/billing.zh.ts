@@ -61,13 +61,13 @@ const translation = {
     messageRequest: {
       title: '信息限制',
       unit: '条每天',
-      tooltip: '指每日应用会话调用 Dify API 的次数（而非 LLMs 的 API 资源调用），它包含你所有应用中通过 API 或者在 WebApp 会话中产生的消息数。',
+      tooltip: '指每日应用会话调用 RealityAI API 的次数（而非 LLMs 的 API 资源调用），它包含你所有应用中通过 API 或者在 WebApp 会话中产生的消息数。',
     },
     annotatedResponse: {
       title: '标注回复数',
       tooltip: '标注回复功能通过人工编辑标注为应用提供了可定制的高质量问答回复能力',
     },
-    ragAPIRequestTooltip: '指单独调用 Dify 知识库数据处理能力的 API。',
+    ragAPIRequestTooltip: '指单独调用 RealityAI 知识库数据处理能力的 API。',
   },
   plans: {
     sandbox: {
