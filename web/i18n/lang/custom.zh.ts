@@ -22,7 +22,7 @@ const translation = {
   restore: '恢复默认',
   customize: {
     contactUs: '联系我们',
-    prefix: '如需在 Dify 内自定义品牌图标，请',
+    prefix: '如需在 RealityAI 内自定义品牌图标，请',
     suffix: '升级至企业版。',
   },
 }
